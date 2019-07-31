@@ -1,0 +1,19 @@
+@import "variables";
+@import "skins";
+@import "mixins";
+@import "extends";
+
+@import "bootstrap-theming";
+@import "header";
+@import "common";
+
+@import "sections/slider";
+@import "sections/about";
+@import "sections/features";
+@import "sections/gallery";
+@import "sections/blog";
+@import "sections/advantages";
+@import "sections/contacts";
+
+@import "footer";
+

@@ -1,0 +1,16 @@
+.slider {
+  &__item {
+    position: relative;
+
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  &__overlay {
+    @include abs-position;
+  }
+
+  h3 {
+    color: $color-light;
+  }
+}
